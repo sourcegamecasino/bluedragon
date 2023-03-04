@@ -1,0 +1,126 @@
+/* Header */
+.site-logo-img img{
+	width: 100%!important;
+}
+@-moz-document url-prefix() {
+.site-logo-img img{
+	height: 120px!important;
+}
+}
+
+.site-header-primary-section-center aside.header-widget-area{
+	width: 500px;
+}
+
+.ast-mobile-header-content .main-navigation .ast-menu-toggle{
+	background-color: unset;
+	color: var(--color-tekst);
+}
+
+/* Cookie bot styles */
+/* Cookiebot styles */
+#CybotCookiebotDialog{
+    --prime-green: #10b981;
+    --light-green: #ecfdf5;
+}
+
+.CybotCookiebotDialogNavItem .active{
+    border-bottom: 1px solid var(--prime-green)!important;
+    color: var(--prime-green)!important;
+}
+
+#CybotCookiebotDialogNav .CybotCookiebotDialogActive{
+    color: var(--prime-green)!important;   
+	border-bottom: 2px solid var(--prime-green)!important;
+}
+
+
+#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink:hover{
+    color: var(--prime-green)!important;   
+	border-bottom: 2px solid var(--prime-green)!important;
+}
+
+#CybotCookiebotDialogBodyButtonDecline, #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection{
+    background-color: var(--light-green)!important;
+    border-color: var(--light-green)!important;
+    color: var(--prime-green)!important;
+}
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll{
+    background-color: var(--prime-green)!important;
+    border-color: var(--prime-green)!important;
+    color: #fff!important;
+}
+
+#CybotCookiebotDialogTabContent input:checked+.CybotCookiebotDialogBodyLevelButtonSlider{
+    background-color: var(--prime-green)!important;
+}
+#CybotCookiebotDialogBodyLevelButtonsSelectPane label:not([for=CybotCookiebotDialogBodyLevelButtonNecessary]) .CybotCookiebotDialogBodyLevelButtonDescription:hover{
+    color: var(--prime-green)!important;
+}
+
+body.e-wc-message-notice .woocommerce-message{
+    background-color: #ffffff00;
+    position: absolute;
+    z-index: 20;
+    top: 200px;
+	display:none;
+}
+
+/* Product - Single - Stock status */
+.ast-stock-detail{
+	display: none!important;
+}
+
+
+
+/* login formular */
+.login-form.elementor-element.elementor-element-6f6e530 .elementor-tab-title.elementor-active {
+    background-color: #A90000;
+    border-radius: 25px;
+}
+
+
+
+.login-form.elementor-element.elementor-element-6f6e530 .elementor-tab-title{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-form.elementor-element.elementor-element-6f6e530 .elementor-tab-title{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+    
+}
+
+.login-form .elementor-tab-mobile-title{
+    display:none;
+}
+
+.login-form .elementor-tabs-wrapper{
+    display: block!important;
+}
+}
+
+
+.uael-onsale{
+	color: var( --e-global-color-accent )!important;
+    background-color: var( --e-global-color-secondary )!important;
+    padding: 5px 10px 5px 10px;
+	font-family: var( --e-global-typography-text-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-text-font-size );
+    font-weight: var( --e-global-typography-text-font-weight );
+	position: absolute;
+    top: 10px;
+    left: 10px;
+	z-index: 20;
+}
+
